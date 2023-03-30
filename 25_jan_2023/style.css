@@ -1,26 +1,50 @@
  /* Universal Selector */
 
- *{
+ * {
     margin: 0;
     padding: 0;
-    
+
  }
 
  /* Element Selector */
 
- h1{
+ h1 {
     background-color: aqua;
  }
- p{
+
+ p {
     color: red;
  }
 
  /* Class Selector */
- .red{
+ .red {
     background-color: yellow;
  }
 
  /*ID Selector */
- #blue{
+ #blue {
     background-color: blue;
+ }
+
+ /* Google Fonts
+  */
+ h2 {
+    font-family: 'Delicious Handrawn', cursive;
+    font-size: 20px;
+ }
+
+ /* Color */
+
+ .color{
+   color: hsl(178, 18%, 71%);
+ }
+
+ body{
+   background-image: url("https://images.pexels.com/photos/4050468/pexels-photo-4050468.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load");
+   /* background-repeat: repeat-x; */
+   /* background-repeat: repeat-y; */
+   background-repeat:no-repeat;
+   /* background-attachment: scroll; */
+   background-attachment: scroll;
+   /* background-size: cover; */
  }

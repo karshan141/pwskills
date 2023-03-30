@@ -1,0 +1,41 @@
+/* body {
+    background-color: red;
+}
+
+div {
+    font-size: x-large;
+    text-align: center;
+}
+
+div::after {
+    content: 'Hello Media Query';
+}
+
+@media (min-width:900px) {
+    body {
+        background-color: aqua;
+    }
+
+    div::after {
+        content: 'Hello 990 query';
+        color: red;
+    }
+} */
+
+.box{
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+}
+.box1{
+    background-color: red;
+    
+}
+.box2{
+    background-color: blue;  
+    position: sticky;
+    top: 0;  
+}
+.box3{
+    background-color: green;
+}
